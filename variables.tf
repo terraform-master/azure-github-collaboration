@@ -6,7 +6,7 @@ variable "subnet1name" {
 }
 
 variable vnet_addr_space {
-  default = "172.16.1.0/16"
+  default = "172.16.0.0/16"
 }
 variable subnet1_addr_space {
   default = "172.16.1.0/24"
